@@ -59,10 +59,15 @@
             text-decoration: none
         }
         .a {
-            /*background-image: url(gradation2.webp);*/
+            /*background-image:
+            url(gradation2.webp);*/
             background-size: cover;
             background-position: left;
             border-bottom: 3px white solid;
+            border-right: 3px white solid;
+            border-top: 3px white solid;
+            border-left: 3px white solid;
+            
         }
          input[type="checkbox"]:checked~li:not(.container) {
              display: none;}
@@ -88,16 +93,16 @@
                     left: 50%;
                     top: 50%;
                     transform: translate(-50%, -50%);
-                    background-color: rgba(0,0,0,0.7);
+                    background-color:rgba(0,0,0,0.7);
                     color: #fff;
                     margin: 0;
                     padding: 0;
-                    
                 }
                 .container:before {
                     content: '';
                     position: absolute;
-                    background-color: rgba(18, 175, 212, 0);
+                    background-color:
+                    rgba(18, 175, 212, 0);
                 }
                 form.box {
                     width: 650px;
@@ -113,10 +118,8 @@
                     text-align: center;
                 }
                 form.box input {
-                    
                     border: none;
                 }
-                
                 form.box input[type=text] {
                     width: 340px;
                     background-color: #fff;
@@ -126,7 +129,6 @@
                     top: 210px;
                     vertical-align : middle;
                     font-size: 22px
-                    
                 }
                 form.box input[type=button] {
                     height: 37.78px;
@@ -139,7 +141,6 @@
                     vertical-align : middle;
                     font-size: 22px;
                     text-align: middle;
-                    
                 }
                 .div4 {
                     color: aqua;
@@ -154,7 +155,7 @@
                     left:34%;
                     top: 52%;
                     font-weight: normal;
-                    
+
                 }
                 .div5 {
                     color: aqua;
@@ -183,7 +184,7 @@
                     left:57%;
                     top: 35%;
                     font-weight: normal;
-                    
+
                 }
                 .a2 {
                     box-shadow:0px 0px 30px 1px aquamarine;
@@ -216,32 +217,59 @@ https://fonts.googleapis.com/css?family=Nanum+Myeongjo
     </li>
     <li style="border-bottom: 3px solid white">
         <a href="5.html">개발자</a>
-        
+
 <div class="container">
     <form class="box">
-        <h1 style="font-size: 50px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사이트 검색&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
-        <input type="text" placeholder="  EOL-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(영문 or 학명)" style="color: aqua" id='search-input' onkeyup="if(window.event.keyCode==13){searchPost()}">
+        <h1 style="font-size: 50px">&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사이트 검색&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;</h1>
+        <input type="text" placeholder=" EOL-&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;(영문 or 학명)" style="color: aqua" id='search-input'
+         onkeyup="if(window.event.keyCode==13){searchPost()}">
         <input type="button" value="🔍︎ 검색" onclick="searchPost()">
     </form>
-</div>    
+</div>
 <div class="div3">
-     <h2 style="font-size: 33px">
-         <a href="7.html">종 검색</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="6-2.html">사이트에서 검색</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="8.html">WoB 렌즈</a></h2>
- </div>
+  <h2 style="font-size: 33px">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="6-2.html" target="_blank">종 검색</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;
+    <a href="https://www.google.co.kr/imghp?hl=ko" target="_blank">이미지 검색</a>
+  </h2>
+</div>.a {
+            /*background-image:
+            url(gradation2.webp);*/
+            background-size: cover;
+            background-position: left;
+            border-bottom: 3px white solid;
+            border-right: 3px white solid;
+            border-top: 3px white solid;
+            border-left: 3px white solid;
+            
+        }
 <div class="div4">
 <h1 style="font-size: 40px"><a href="https://eol.org" style="color: aquamarine" class="a2" target=”_blank”>EOL</a></h1>
 </div>
 <div class="div5">
 <h1 style="font-size: 40px"><a href="https://www.kbr.go.kr/content/view.do;jsessionid=HtdTCHN43wrNytRT35a3e2DRsIcSQfzabiyohDfHxQrtw4stbchA8vqOWWzRPoNF.nsns_web_servlet_engine1?menuKey=446&contentKey=14" style="color: aquamarine" class="a2" target=”_blank”>CBM-CHM KOREA</a></h1>
-</div>        
-<div class="div6">
-    <h1 style="font-size: 20px; color:aquamarine; padding: 0"><a href="6.html" style="color: aquamarine">-EOL</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="6-3.html" style="color: aquamarine">-EOL+Wikipedia</a><br><a href="6-2.html" style="color: aquamarine">-Wikipedia</a></h1>
 </div>
-    </li>
-        
+<div class="div6">
+  <h1 style="font-size: 20px; color:aquamarine; padding: 0">
+    <a href="6.html" style="color: aquamarine">
+    -EOL</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="6-3.html" style="color: aquamarine">
+    -EOL+Wikipedia</a><br><a href="6-2.html" style="color: aquamarine">
+    -Wikipedia</a></h1>
+</div>
+</li>
 
-        
+
+
         
         <script>
 
@@ -249,12 +277,12 @@ https://fonts.googleapis.com/css?family=Nanum+Myeongjo
         let searchValue = document.getElementById('search-input').value.trim();
         if (searchValue.length > 1) {
             location.href = "https://eol.org/search?q=" + searchValue;
-            
+
         } else {
             alert('검색어(' + searchValue + ')가 너무 짧습니다.');
         }
     };
-            
+
         </script>
   </body>
 </html>
